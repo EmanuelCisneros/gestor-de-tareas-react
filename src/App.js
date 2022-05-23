@@ -4,7 +4,6 @@ import { Login } from "./components/Login";
 import { Register } from "./components/Register";
 import { Home } from "./components/Home";
 import { ProtectedRoute } from "./components/ProtectedRoute";
-
 import { AuthProvider } from "./context/authContext";
 
 function App() {
