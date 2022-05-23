@@ -75,7 +75,7 @@ export function Login() {
             htmlFor="password"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
-            Contraseña
+            Password
           </label>
           <input
             type="password"
@@ -99,7 +99,7 @@ export function Login() {
             href="#!"
             onClick={handleResetPassword}
           >
-            Se ha olvidado la contraseña?
+            ¿Se ha olvidado la contraseña?
           </a>
         </div>
       </form>

@@ -5,6 +5,10 @@ import { Register } from "./components/Register";
 import { Home } from "./components/Home";
 import { ProtectedRoute } from "./components/ProtectedRoute";
 import { AuthProvider } from "./context/authContext";
+import DenseAppBar from "./components/VerticalTabs";
+import TabPanel from "./components/VerticalTabs";
+import VerticalTabs from "./components/VerticalTabs";
+import ComplexGrid from "./components/ComplexGrid";
 
 function App() {
   return (
@@ -21,6 +25,9 @@ function App() {
             }
           />
           <Route path="/register" element={<Register />} />
+          <Route path="/verticaltabs" element={<VerticalTabs />} />
+          <Route path="/complexgrid" element={<ComplexGrid />} />
+
         </Routes>
       </AuthProvider>
     </div>

@@ -21,6 +21,9 @@ export function Register() {
       navigate("/");
     } catch (error) {
       setError(error.message);
+      if (error.code === "auth/internal-error"){
+        setError("Correo invalido");
+    }
     }
   };
 

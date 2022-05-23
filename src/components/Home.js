@@ -23,7 +23,6 @@ export function Home() {
         >
           Cerrar Sesión 
         </button>
-
       </div>
       
     </div>
